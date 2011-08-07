@@ -1,0 +1,4 @@
+category: KDE Math Science
+requires: libgcc1 libkdecore5 libQtCore4 libQtGui4 libQtScript4 libQtSvg4 libstdc++6
+sdesc: "KDE graph theory IDE"
+ldesc: "KDE education suite"
