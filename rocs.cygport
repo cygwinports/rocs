@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="rocs"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Math"
+SUMMARY="KDE graph theory IDE"
+DESCRIPTION="Part of the KDE education suite"
+
+# some of the DataStructures plugins must be SHARED
+DEPS_PATH="/usr/lib/kde4"
