@@ -9,3 +9,5 @@ DESCRIPTION="Part of the KDE education suite"
 
 # some of the DataStructures plugins must be SHARED
 DEPS_PATH="/usr/lib/kde4"
+
+REQUIRES="kate4-part kde-runtime"
