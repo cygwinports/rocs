@@ -1,0 +1,20 @@
+--- origsrc/rocs-15.04.3/libgraphtheory/libgraphtheoryexport.h	2015-06-24 07:17:48.000000000 -0500
++++ src/rocs-15.04.3/libgraphtheory/libgraphtheoryexport.h	2015-09-17 13:26:31.341639500 -0500
+@@ -21,14 +21,11 @@
+ #ifndef GRAPHTHEORY_EXPORT_H
+ #define GRAPHTHEORY_EXPORT_H
+ 
+-#define KDE_EXPORT __attribute__ ((visibility("default")))
+-#define KDE_IMPORT __attribute__ ((visibility("default")))
+-
+ #ifndef GRAPHTHEORY_EXPORT
+-# ifdef MAKE_GRAPHTHEORY_LIB
+-#  define GRAPHTHEORY_EXPORT KDE_EXPORT
++# ifdef rocsgraphtheory_EXPORTS
++#  define GRAPHTHEORY_EXPORT Q_DECL_EXPORT
+ # else
+-#  define GRAPHTHEORY_EXPORT KDE_IMPORT
++#  define GRAPHTHEORY_EXPORT Q_DECL_IMPORT
+ # endif
+ #endif
+ 
