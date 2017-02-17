@@ -1,10 +1,8 @@
 inherit kf5
 
 NAME="rocs"
-VERSION=15.04.3
+VERSION=16.08.3
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="KDE graph theory IDE"
 DESCRIPTION="Part of the KDE education suite"
-
-PATCH_URI="15.04.3-dllexport.patch"
